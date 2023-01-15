@@ -1,0 +1,87 @@
+.sedans a{
+    text-decoration: none;
+    color: #D87517;
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    border-radius: 30px;
+    
+}
+.suvs a{
+    text-decoration: none;
+    color: #277F70;
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    border-radius: 30px;
+}
+.luxury a{
+    text-decoration: none;
+    color: #14434C;
+    background-color: white;
+    padding: 10px;
+    font-size: small;
+    border-radius: 30px;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    
+}
+.sedans{
+    background-color: #D87517;
+    padding: 40px;
+    color: white;
+    border-radius: 20px 0 0 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+p{
+    font-size: small;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+*{
+    margin: 0;
+    padding: 0;;
+}
+.suvs{
+    background-color:#277F70;
+    padding: 40px;
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.luxury{
+    background-color: #14434C;
+    padding: 40px;
+    color: white;
+    border-radius: 0 20px 20px 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+
+}
+.car{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(212, 158, 91);
+    border-radius: 10px;
+    text-align: end;
+    margin-bottom: 20px;
+
+}
+.car1{
+ background-color: #916832;
+}
+.car2{
+    background-color: #65b9ab;
+   }
+   .car3{
+    background-color: #204f6e;
+   }
+
+.car svg{
+    width: 15px;
+    height: 10px;
+    margin-left: 15px;
+    opacity:0.5;
+
+}
