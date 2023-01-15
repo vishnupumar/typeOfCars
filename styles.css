@@ -7,6 +7,10 @@
     border-radius: 30px;
     
 }
+.sedans a:hover{
+    color: #fff;
+    background-color: rgb(92, 61, 21);
+}
 .suvs a{
     text-decoration: none;
     color: #277F70;
@@ -14,6 +18,10 @@
     padding: 10px;
     font-size: small;
     border-radius: 30px;
+}
+.suvs a:hover{
+    color: #fff;
+    background-color: rgb(37, 109, 97);
 }
 .luxury a{
     text-decoration: none;
@@ -23,10 +31,18 @@
     font-size: small;
     border-radius: 30px;
 }
+.luxury a:hover{
+    color: #fff;
+    background-color: rgb(46, 91, 107);
+}
 .container{
     display: flex;
     padding: 10px;
     
+}
+.main{
+    width:70%;
+    margin: auto;
 }
 .sedans{
     background-color: #D87517;
@@ -36,9 +52,12 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 p{
-    font-size: small;
+    
     margin-bottom: 50px;
-    margin-top: 20px;
+    margin-top: 50px;
+}
+h1{
+    margin-top: 50px;
 }
 *{
     margin: 0;
